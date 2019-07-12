@@ -16,3 +16,60 @@
 
 
 @import 'bootstrap';
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    color:#7e1285;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-expand-lg > .container, .navbar-expand-lg > .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+.bg-dark {
+    background-color: #e3c2ce !important;
+}
+.navbar-dark .navbar-brand {
+    color: #7e1285;
+}
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 15px;
+    margin-top:29px;
+}
+input, button, select, optgroup, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border-radius: 15px;
+    background-color: #ffd1f1;
+}
+a {
+    color: #630769;
+    text-decoration: none;
+    background-color: transparent;
+}
+body{
+	background-color: #d8d8d8;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #62076d;
+}
+
+
